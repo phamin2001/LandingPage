@@ -1,39 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/61805d4673.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <div id="page-wrapper">
-        <header id="header">
-            <div class="logo">
-                <img
-                    id="header-img" 
-                    src="images/Web_Developer.gif" 
-                    alt="original Web Developer logo"
-                />
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="images/Web_Developer.gif"
+            alt="original Web Developer logo"
+          />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#Technologies">Technologies</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section id="email">
+        <h2>Modern Technology</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fab fa-3x fa-cc-discover"></i>
             </div>
-            
-            
+            <div class="desc">
+              <h2>MVC</h2>
+              <p>
+                The Model-View-Controller (MVC) is an architectural pattern that
+                separates an application into three main logical components: the
+                model, the view, and the controller.
+              </p>
+            </div>
+          </div>
 
+          <div class="grid">
+            <div class="icon">
+              <i class="fas fa-3x fa-compress-arrows-alt"></i>
+            </div>
+            <div class="desc">
+              <h2>Agile</h2>
+              <p>
+                Agile software development comprises various approaches to
+                software development under which requirements and solutions
+                evolve through the collaborative effort of self-organizing and
+                cross-functional teams and their customer/end user.
+              </p>
+            </div>
+          </div>
 
-        </header>
-        
-        <div class="container">
-            
-        </div>
-        <div class="container">
-            <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fas fa-3x fa-house-damage"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                Quality assurance is a way of preventing mistakes and defects in
+                manufactured products and avoiding problems when delivering
+                products or services to customers; which ISO 9000 defines as
+                "part of quality management focused on providing confidence that
+                quality requirements will be fulfilled.
+              </p>
+            </div>
+          </div>
+        </section>
 
-            </section>
-        </div>
+        <section id="technologies">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/hJHvdBlSxug"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+
+        <section id="pricing">
+          <div class="product">
+            <div class="level">Front-End</div>
+            <h2>$200</h2>
+            <ol>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product">
+            <div class="level">Back-End</div>
+            <h2>$400</h2>
+            <ol>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+          <div class="product">
+            <div class="level">Fullstack</div>
+            <h2>$800</h2>
+            <ol>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+
         <footer>
-
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2020</span>
         </footer>
-    </div>   
-</body>
+      </div>
+    </div>
+  </body>
 </html>
